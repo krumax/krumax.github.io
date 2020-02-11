@@ -1,0 +1,72 @@
+# Site settings
+title: Max Kruse
+description: Die digitale Visitenkarte von Max Kruse
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Max Kruse
+user_description: Nach meinem Studium der Medieninformatik an der Technischen Universität Dresden habe ich mir meine Sporen mit technischen Entwicklungsaufgaben im Plattformbereich über unterschiedliche Stationen bis hin zur Agilen Projektleitung verdient. Zu meinen Kunden gehörten DACH Energiekonzerne und Hersteller für Photovoltaik und Heimspeicheranlagen. Die Digitalisierung der Energiewende ist mir in den vergangenen Jahren ans Herz gewachsen. Ganz besonders das Spannungsfeld nachhaltiger IT im Zeitalter des Klimawandels reizt mich. Ich bin ein humorvoller, motivierter und technikbegeisterter Leader.
+user_title: IT Projektleiter - Product Owner
+email: xam.esurk@gmail.com
+twitter_url: https://twitter.com/maxkruse
+github_url:   https://github.com/krumax
+instagram_url: https://www.instagram.com/xam_esurk
+linkedin_url: www.linkedin.com/in/max-kruse-b7024a4b
+
+author: Max Kruse
+street_address: Niederauer Staße 53
+city: Dresden
+zip_code: 01127
+country: Deutschland
+
+
+#About
+about_title: Über mich
+
+#Projects
+projects_title: Projekte
+
+# Technical Skills
+technical-skills:
+  title: Techische Fähigkeiten
+  frontend_title: Frontend
+  frontend: Javascript, AngularJS, HTML5, CSS, REST, TypeScript, grunt, npm
+  backend_title: Backend
+  backend: Node.js, PHP-Symphony, Swagger
+  devops_title: DevOps
+  devops: Docker, Grafana, Influx, Pingdom, Linux, Google Cloud Plattform
+  qa_title: QA/Service
+  qa: nightwatch.js, Jira Service Desk
+  delivery_title: CI/CD
+  delivery: Jenkins, Docker, Git, Bitbucket
+
+# Product Skills
+product-skills:
+  title: Produkt Fähigkeiten
+  agile_title: Agiles Mindset
+  agile: Die Digitalisierung erfordert in der Zeit, in der wir arbeiten sowohl für Produkte, Projekte und Teams eine hohe und oft schwer kalkulierbare Beschleunigung. <b>Beschleunigung</b> ist jedoch nicht immer ein Indikator für hohe Geschwindigkeit. Daher ist es mir wichtig, die Teilhaber in den Prozessen auf die Chancen der <b>Iteration</b> vorzubereiten und zu begleiten. <b>Vertrauen</b>, <b>Offenheit</b>, <b>Einfachheit</b> fördern Fokus und die eigene Veränderbarkeit. Niemand ist ohne Fehler, kein Produkt ist ohne Fehler. Ein Team welches zur <b>Neugier</b> angespornt, offen mit Fehlern umgehen kann, sich weiterentwickeln will kann sehr viel mehr erreichen als in Pflichten- und Lastenheft orientierten Tätigkeiten. Eine stärkere Bindung zur eigenen Arbeit und Freiheitsgrade für Kunden sind einige Vorteile einer agilen Vorgehensweise.
+  leadership_title: Teamführung
+  leadership: Ich führe gern mit meiner <b>humorvollen</b> und <b>offenen</b> Art. Ein großer Antrieb meiner täglichen Arbeit ist, meine Kollegen, Mitmenschen und Freunde zu inspirieren. Jeder ist eine <b>starke Führungskraft</b>, der Menschen dazu befähigt selbst zu führen. Ich sehe ein Team nicht als Gruppe von Einzelkämpfern, sondern als das was mehr als die Summe seiner Einzelteile darstellt. Vertrauen, Ehrlichkeit, Kollegialität schafft einen immensen Zusammenhalt und eine <b>Team Integrität</b>, die sich in der täglichen Arbeit spürbar positiv auswirkt. Jeder sollte mit <b>Freude</b> seinen Arbeitsalltag beginnen und ebenso beenden.
+  products_title: Produkte/Projekte
+  products: Eine meiner wichtigsten Motivationen täglicher Arbeit ziehe ich aus einer starken <b>persönlichen Identifikation</b> mit Produkten oder Projekten. Es gibt im digitalen Umfeld kaum spannendere, reizvollere Abreitserfolge, als ein Produkt zu begleiten, es aus den Kinderschuhen zu helfen, es <b>stetig zu verbessern</b> oder neu auszurichten. Vor dem Hintergrund der Schnelllebigkeit unserer Zeit und der Halbwertszeit von Software stellen sich besondere Anforderungen an die tägliche Arbeit an Produkten. Ein tolles, motiviertes Team, ein agiles Mindset unterstützen die Arbeit daran ebenso stark wie eine geordnete, verständliche Sicht auf strategische Ausrichtung, Meilensteine, <b>Erfolge und Misserfolge</b>.
+  tooling_title: Tooling
+  tooling: Jira, Confluence, Google Sheets, Controlling, Personalcoaching, Onboarding, Recruiting
+
+#Interests
+interests:
+  title: Interessen
+  sport_title: Wassersport
+  sport: Wellenreiten, Segeln, Windsurfen
+  sustainability_title: Nachhaltigkeit
+  sustainability: Themen zur Nachhaltigkeit, Erneuerbare Energien, Familie, Freunde
+  beer_title: Bier
+  beer: Das eigene Bier selber brauen - ein spannender und bekömmlicher Zeitvertreib
+  music_movies_title: Film/Musik
+  music_movies: Filme schauen und produzieren, Livemusik und Konserven konsumieren
+
+# Google-analytics
+google-analytics:
+  id: ""
+
+exclude: ['package.json', 'src' , 'node_modules']
