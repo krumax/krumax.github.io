@@ -65,6 +65,119 @@ interests:
   music_movies_title: Film/Musik
   music_movies: Filme schauen und produzieren, Livemusik und Konserven konsumieren
 
+
+# Milestones and Projects
+projects:
+  title: Meilensteine, Projekte und Tätigkeiten
+  part-01:
+    title: Platform Entwicklung
+    date: Apr. 2012–Dez. 2014
+    duration: 2 Jahre 9 Monate
+    todos: Softwareentwicklung Frontend
+    links:
+      - uri: "https://www.kiwigrid.com/portfolio/the-independent-home-2"
+        title: Kiwigrid GmbH
+        description: Kiwigrid - The Independent Home
+    description:
+      - title: Softwareentwicklung Symfony 1.4
+        description:  WebPortal Stack (PHP, JS, HTML) zur Visualisierung von Messwerten eines EnergyManagement/Homeautomation Gateways auf Android Basis.
+      - title: Softwareentwicklung Symfony 2.x
+        description: Neuentwicklung WebApplikations Stack auf Basis von Symfony 2.x (PHP, JS, HTML) welcher nahtlos in eine Portallösung integriert werden kann.
+      - title: Softwareentwicklung WebApplication Stack angularJS
+        description: Neuentwicklung eines Singlepage WebApp Stacks als Ersatz für PHP Portallösung auf Basis von angularJS
+        details:
+          - detail:
+            description: Monitoring Stromflüsse, Bilanzen zu Eigenverbrauch, Selbstversorgung, Einspeisung und Netzbezug
+          - detail:
+            description: Export von Zeitreihen für Förderprogramme zur Subventionierung von Heimspeichern
+          - detail:
+            description: Integration von Heimspeicher, Photovoltaik, Digital Stromzähler Metriken
+          - detail:
+            description: Remote Gerätesteuerung, Eigenverbrauchsoptimierung, Zeitschaltuhren für SmartPlugs über eine einheitlich gestaltete WebApplikation
+          - detail:
+            description: Prognose von Zeitreihen zu Stromverbrauch/-erzeugung (6 Tage, Wetter und Bewölkungseigenschaften)
+  part-02:
+    title: Technische Leitung
+    date: Jan. 2015–Juni 2016
+    duration: 1 Jahr 6 Monate
+    todos: Architektur - Team Leitung - Technische Leitung - Softwareentwicklung
+    description:
+      - title: Technische Leitung
+        description: Umsetzung, Planung von Frontend Software Projekten im Kundenkontext
+        details:
+          - detail:
+            description: kundenbezogens agiles Frontend Apps Entwicklungsteam
+          - detail:
+            description: Onboarding weiterer Mandanten für den WebApp Stack und kundenspezifische Weiterentwicklung für eon und enviam
+          - detail:
+            description: Migration WebApp Stack auf an cloudbasierte Services (BigData Warehouse, Userservices, REST, WebSockets) und Echtzeitkommunikation von Webfrontend zum EnergyManagement/Homeautomation Gateway
+      - title: Softwareentwicklung
+        description: Softwareentwicklung/-architektur im Frontendbereich JavaScript
+        details:
+          - detail:
+            description: prototypischer Frontend für ShowCase SmartCharging mit Solarwatt und BMW für die CES 2015 in Las Vegas
+          - detail:
+            description: Integration weiterer gerätespezifischen WebApplikationen für Heimspeichergeneration Solarwatt MyReserve, MyReserve Matrix
+          - detail:
+            description: Migration WebApp Stack auf an neue cloudbasierte Services (u.a. Zeitserien, bidirektionale Echtzeitgerätekommunikation)
+          - detail:
+            description: Simulation von Eigenverbrauch-/Selbstversorgungsquoten zur Berechnung des Potentials von PV-Ausbau und/oder Integration von Heimspeicher mit Anbindung an Lead Generierung für den Kunden
+  part-03:
+    title: Projektleitung
+    date: Juni 2016–Juli 2019
+    duration: 3 Jahre 2 Monate
+    todos: Architektur - Projektleitung - Produktentwicklung - Product Ownership
+    links: 
+      - uri: "https://www.solarwatt.de/energie-management"
+        description: Energie Management Lösung der Solarwatt
+        title: SOLARWATT Lösung
+      - uri: "https://www.ekz.ch/de/private/strom-produzieren/eigenverbrauch.html"
+        description: Eigenverbrauchsoptimierung der EKZ
+        title: EKZ Lösung
+    description:
+      - title: Projektleitung
+        description: Leitung zweier Kundenprojekte für SOLARWATT und EKZ
+        details:
+          - detail:
+            description: Onboarding für Elektrizitätswerke des Kanton Zürich, Betreung, gemeinsame, agile Entwicklung einer Featureroadmap, Umsetzung von Meilensteinen, Qualitätssicherung, Feldtests, Dokumenationen
+          - detail:
+            description: Projektleitung &#58; Controlling, Planung, Personalbeschaffung, Risikomanagement, Ressourcen- & Meilensteinplanung, Beratung, Angebotserstellung, Teamsteuerung,agile Projektabwicklung Time/Budget/Quality
+      - title: Technische Leitung
+        description: Technische Leitung, Ausrichtung und Steuerung eines Entwicklungsteams
+        details:
+          - detail:
+            description: Integration weiterer Hardware/Frontend Schnittstellen für den Betrieb, Auswertung und Steuerung von &#58; neuester Generation SOLARWATT MyReserve Heimspeicher, MyStrom Smartplugs, keba P30 Ladesäulen (Treiberenwicklung auf JAVA Basis, Frontend angularJS)
+          - detail:
+            description: Migration Deployment/Build/Maintenance/Operations Stack in Google Cloud Platform, Unterstützung Softwarearchitektur, Unterstützung Build- und Deploymentprozesse, Qualitätssicherung und Releasemanagment (kubernetes, jenkins, ingress, helm)
+      - title: Produktentwicklung
+        description: Product Ownership für den gesamten kundenspezifischen Anforderungskatalog
+        details:
+          - detail:
+            description: Eigenverbrauchoptimiertes Laden von unterschiedlichen elektrischen Fahrzeugen mit Hilfe eines EnergyManagement Gateway Systems und der keba P30 Ladesäule (Treiberentwicklung, Frontendentwicklung, Regelungssoftware), Heizstäbe, Smartplugs und SG Ready Wärmepumpen
+          - detail:
+            description: Lead Generierungs Tooling für PV Anlagen mit einem externen Entwicklungsteam modernsten Webtechnoligien (Integration in Salesforce Backend, Verwendung WebComponents als Microfrontends)
+      - title: Team Leitung
+        description: 2 agile Scrum Teams (5-9 Personen)
+  part-04:
+    title: Produktentwicklung
+    date: Juli 2019–November 2019
+    duration: 5 Monate
+    todos: Architektur - Release Manager - Product Ownership - Technische Leitung
+    links:
+      - uri: "https://www.kiwigrid.com/portfolio/the-independent-home-2"
+        title: Kiwigrid GmbH
+        description: Kiwigrid - The Independent Home
+    description:
+      - title: Produktentwicklung
+        description: Featureiteration auf dem gesamten Stack für meine Kunden
+        details:
+          - detail:
+            description: Integration OCPP in lokale, Gateway basierte Eigenverbrauchsoptimierung für den Betrieb von Ladesäulen und PV Anlagen (Residential; bis 10 kWp Anlagengröße)
+          - detail:
+            description: Unterstützung Migration Energy Management Stack in neue Gateway Plattform
+      - title: Team Leitung
+        description: 4 Personen Scrum Team
+
 # Google-analytics
 google-analytics:
   id: ""

@@ -1,29 +1,129 @@
 <div class="user-details">
-  <h1> Featured Projects </h1>
+  <h1>{{site.projects.title}}</h1>
 </div>
-<div class="user-projects">
-  <div class="images-right">
-    <img alt="mountains" src="{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}" />
-  </div>
-  <div class="contents">
-    <h3> Project Title </h3>
-    <ul>
-      <li> Featured Skills</li>
-    </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
-  </div>
-</div>
+
+<!-- LEFT -->
+<!---------->
 <div class="user-projects">
   <div class="images-left">
-    <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />
+    <img alt="mountains" src="{{ "/assets/img/kiwigrid-2019-small.jpg" | prepend: site.baseurl }}" />
   </div>
   <div class="contents-right">
-    <h3> Project Title </h3>
+    <h3>{{site.projects.part-04.title}}</h3>
     <ul>
-      <li> Featured Skills</li>
+      <li>{{site.projects.part-04.todos}}</li>
+      <li>{{site.projects.part-04.date}}</li>
+      <li>{{site.projects.part-04.duration}}</li>
     </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
+    {% for entry in site.projects.part-04.description %}
+    <p><b>{{entry.title}}</b>: {{entry.description}}</p>
+    {% if entry.details %}
+      <ul >
+        {% for detail in entry.details %}
+          <li style="color:#555; font-size: 0.9rem;">  {{detail.description}}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+    {% endfor %}
+    {% if site.projects.part-04.links %}
+      {% for link in site.projects.part-04.links %}
+        <a class="project-link" title="{{link.description}}" target="blank" href={{link.uri}}>{{link.title}}</a>
+      {% endfor %}
+    {% endif %}
   </div>
 </div>
+
+<!-- RIGHT -->
+<div class="user-projects">
+  <div class="images-right">
+    <img alt="mountains" src="{{ "/assets/img/solarwatt-intersolar-2019-small.jpg" | prepend: site.baseurl }}" />
+    <img alt="mountains" style="padding-top: 3em;" src="{{ "/assets/img/desktop-solarwatt-small.jpg" | prepend: site.baseurl }}" />
+    <img alt="mountains" style="padding-top: 3em;" src="{{ "/assets/img/control-ekz-small.jpg" | prepend: site.baseurl }}" />
+  </div>
+
+  <div class="contents">
+    <h3>{{site.projects.part-03.title}}</h3>
+    <ul>
+      <li>{{site.projects.part-03.todos}}</li>
+      <li>{{site.projects.part-03.date}}</li>
+      <li>{{site.projects.part-03.duration}}</li>
+    </ul>
+    {% for entry in site.projects.part-03.description %}
+    <p><b>{{entry.title}}</b>: {{entry.description}}</p>
+      {% if entry.details %}
+        <ul >
+          {% for detail in entry.details %}
+            <li style="color:#555; font-size: 0.9rem;">  {{detail.description}}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endfor %}
+
+    {% if site.projects.part-03.links %}
+      {% for link in site.projects.part-03.links %}
+        <a class="project-link" title="{{link.description}}" target="blank" href={{link.uri}}>{{link.title}}</a>
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
+
+<!-- LEFT -->
+<div class="user-projects">
+  <div class="images-left">
+    <img alt="mountains" src="{{ "/assets/img/portal-solarwatt-small.jpg" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents-right">
+    <h3>{{site.projects.part-02.title}}</h3>
+    <ul>
+      <li>{{site.projects.part-02.todos}}</li>
+      <li>{{site.projects.part-02.date}}</li>
+      <li>{{site.projects.part-02.duration}}</li>
+    </ul>
+    {% for entry in site.projects.part-02.description %}
+    <p><b>{{entry.title}}</b>: {{entry.description}}</p>
+    {% if entry.details %}
+      <ul >
+        {% for detail in entry.details %}
+          <li style="color:#555; font-size: 0.9rem;">  {{detail.description}}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+    {% endfor %}
+    {% if site.projects.part-012.links %}
+      {% for link in site.projects.part-02.links %}
+        <a class="project-link" title="{{link.description}}" target="blank" href={{link.uri}}>{{link.title}}</a>
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
+
+<!-- RIGHT -->
+<div class="user-projects">
+  <div class="images-right">
+    <img alt="Kiwigrid WebPortal" src="{{ "/assets/img/portal-kiwigrid-small.jpg" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents">
+    <h3>{{site.projects.part-01.title}}</h3>
+    <ul>
+      <li>{{site.projects.part-01.todos}}</li>
+      <li>{{site.projects.part-01.date}}</li>
+      <li>{{site.projects.part-01.duration}}</li>
+    </ul>
+    {% for entry in site.projects.part-01.description %}
+    <p><b>{{entry.title}}</b>: {{entry.description}}</p>
+    {% if entry.details %}
+      <ul >
+        {% for detail in entry.details %}
+          <li style="color:#555; font-size: 0.9rem;">  {{detail.description}}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+    {% endfor %}
+    {% if site.projects.part-01.links %}
+      {% for link in site.projects.part-01.links %}
+        <a class="project-link" title="{{link.description}}" target="blank" href={{link.uri}}>{{link.title}}</a>
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
+
