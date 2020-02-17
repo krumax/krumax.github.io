@@ -6,8 +6,8 @@ description: Die digitale Visitenkarte von Max Kruse
 url: https://krumax.github.io
 
 # User settings
-username: Max Kruse
-user_description: Nach meinem Studium der Medieninformatik an der Technischen Universität Dresden habe ich mir meine Sporen mit technischen Entwicklungsaufgaben im Plattformbereich über unterschiedliche Stationen bis hin zur Agilen Projektleitung verdient. Zu meinen Kunden gehörten DACH Energiekonzerne und Hersteller für Photovoltaik und Heimspeicheranlagen. Die Digitalisierung der Energiewende ist mir in den vergangenen Jahren ans Herz gewachsen. Ganz besonders das Spannungsfeld nachhaltiger IT im Zeitalter des Klimawandels reizt mich. Ich bin ein humorvoller, motivierter und technikbegeisterter Leader.
+username: Hallo! Ich bin <span class=highlight>Max Kruse</span>.
+user_description: Nach meinem Studium der <b>Medieninformatik</b> an der <b>Technischen Universität Dresden</b> habe ich mir meine Sporen mit technischen Entwicklungsaufgaben im Plattformbereich über unterschiedliche Stationen bis hin zur <b>Agilen IT Projektleitung</b> verdient. Zu meinen Kunden gehörten DACH Energiekonzerne und Hersteller für Photovoltaik und Heimspeicheranlagen. Die <b>Digitalisierung der Energiewende</b> ist mir in den vergangenen Jahren ans Herz gewachsen. Ganz besonders das Spannungsfeld nachhaltiger IT im Zeitalter des Klimawandels reizt mich. Ich bin ein humorvoller, motivierter und technikbegeisterter Leader.
 user_title: IT Projektleiter - Product Owner
 email: xam.esurk@gmail.com
 twitter_url: https://twitter.com/maxkruse
@@ -81,9 +81,9 @@ projects:
         description: Kiwigrid - The Independent Home
     description:
       - title: Softwareentwicklung Symfony 1.4
-        description:  WebPortal Stack (PHP, JS, HTML) zur Visualisierung von Messwerten eines EnergyManagement/Homeautomation Gateways auf Android Basis.
+        description:  WebPortal Stack (PHP, JS, HTML) zur Visualisierung von Messwerten eines EnergyManagement/Homeautomation Gatewaysystems.
       - title: Softwareentwicklung Symfony 2.x
-        description: Neuentwicklung WebApplikations Stack auf Basis von Symfony 2.x (PHP, JS, HTML) welcher nahtlos in eine Portallösung integriert werden kann.
+        description: Neuentwicklung WebApplikations Stack auf Basis von Symfony 2.x (PHP, JS, HTML) mit nahtloser Integration in eine Portallösung.
       - title: Softwareentwicklung WebApplication Stack angularJS
         description: Neuentwicklung eines Singlepage WebApp Stacks als Ersatz für PHP Portallösung auf Basis von angularJS
         details:
@@ -96,7 +96,7 @@ projects:
           - detail:
             description: Remote Gerätesteuerung, Eigenverbrauchsoptimierung, Zeitschaltuhren für SmartPlugs über eine einheitlich gestaltete WebApplikation
           - detail:
-            description: Prognose von Zeitreihen zu Stromverbrauch/-erzeugung (6 Tage, Wetter und Bewölkungseigenschaften)
+            description: Prognose von Zeitreihen zu Stromverbrauch/-erzeugung
   part-02:
     title: Technische Leitung
     date: Jan. 2015–Juni 2016
@@ -107,11 +107,11 @@ projects:
         description: Umsetzung, Planung von Frontend Software Projekten im Kundenkontext
         details:
           - detail:
-            description: kundenbezogens agiles Frontend Apps Entwicklungsteam
+            description: kundenbezogens, agiles Frontend Apps Entwicklungsteam
           - detail:
-            description: Onboarding weiterer Mandanten für den WebApp Stack und kundenspezifische Weiterentwicklung für eon und enviam
+            description: Onboarding weiterer Mandanten für den WebApp Stack und kundenspezifische Weiterentwicklung (E.ON, enviaM)
           - detail:
-            description: Migration WebApp Stack auf an cloudbasierte Services (BigData Warehouse, Userservices, REST, WebSockets) und Echtzeitkommunikation von Webfrontend zum EnergyManagement/Homeautomation Gateway
+            description: Migration WebApp Stack auf cloudbasierte Services (BigData Warehouse für Metriken, Userservices, Applikationeservices, OAuth, REST, WebSockets) und Echtzeitkommunikation von Webfrontend zum EnergyManagement/Homeautomation Gateway
       - title: Softwareentwicklung
         description: Softwareentwicklung/-architektur im Frontendbereich JavaScript
         details:
@@ -137,17 +137,17 @@ projects:
         title: EKZ Lösung
     description:
       - title: Projektleitung
-        description: Leitung zweier Kundenprojekte für SOLARWATT und EKZ
+        description: Leitung zweier Kundenprojekte für die Kiwigrid (SOLARWATT und EKZ)
         details:
           - detail:
-            description: Onboarding für Elektrizitätswerke des Kanton Zürich, Betreung, gemeinsame, agile Entwicklung einer Featureroadmap, Umsetzung von Meilensteinen, Qualitätssicherung, Feldtests, Dokumenationen
+            description: Onboarding und Betreuung Elektrizitätswerke des Kanton Zürich; gemeinsame, agile Entwicklung einer Featureroadmap; Umsetzung von Meilensteinen; Qualitätssicherung; Feldtests; Dokumenationen
           - detail:
-            description: Projektleitung &#58; Controlling, Planung, Personalbeschaffung, Risikomanagement, Ressourcen- & Meilensteinplanung, Beratung, Angebotserstellung, Teamsteuerung,agile Projektabwicklung Time/Budget/Quality
+            description: Controlling, Projektplanung, Personalbeschaffung, Risikomanagement, Ressourcen- & Meilensteinplanung, Beratung, Angebotserstellung, Teamsteuerung, agile Projektabwicklung Time/Budget/Quality
       - title: Technische Leitung
         description: Technische Leitung, Ausrichtung und Steuerung eines Entwicklungsteams
         details:
           - detail:
-            description: Integration weiterer Hardware/Frontend Schnittstellen für den Betrieb, Auswertung und Steuerung von &#58; neuester Generation SOLARWATT MyReserve Heimspeicher, MyStrom Smartplugs, keba P30 Ladesäulen (Treiberenwicklung auf JAVA Basis, Frontend angularJS)
+            description: Integration weiterer Hardware/Frontend Schnittstellen für den Betrieb, Auswertung und Steuerung von&#58; neuester Generation SOLARWATT MyReserve Heimspeicher, MyStrom Smartplugs, keba P30 Ladesäulen (Treiberenwicklung auf JAVA Basis, Frontend angularJS)
           - detail:
             description: Migration Deployment/Build/Maintenance/Operations Stack in Google Cloud Platform, Unterstützung Softwarearchitektur, Unterstützung Build- und Deploymentprozesse, Qualitätssicherung und Releasemanagment (kubernetes, jenkins, ingress, helm)
       - title: Produktentwicklung
