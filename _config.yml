@@ -14,6 +14,8 @@ twitter_url: https://twitter.com/maxkruse
 github_url:   https://github.com/krumax
 instagram_url: https://www.instagram.com/xam_esurk
 linkedin_url: www.linkedin.com/in/max-kruse-b7024a4b
+stack_url: https://stackoverflow.com/users/1554767/xam-esurk
+resume_url: https://krumax.github.io/assets/docs/resume.pdf
 
 author: Max Kruse
 street_address: Niederauer Staße 53
@@ -111,7 +113,7 @@ projects:
           - detail:
             description: Onboarding weiterer Mandanten für den WebApp Stack und kundenspezifische Weiterentwicklung (E.ON, enviaM)
           - detail:
-            description: Migration WebApp Stack auf cloudbasierte Services (BigData Warehouse für Metriken, Userservices, Applikationeservices, OAuth, REST, WebSockets) und Echtzeitkommunikation von Webfrontend zum EnergyManagement/Homeautomation Gateway
+            description: Migration WebApp Stack auf cloudbasierte Services (BigData Warehouse für Metriken, Userservices, Applicationservices, OAuth, REST, WebSockets) und Echtzeitkommunikation von Webfrontend zum EnergyManagement/Homeautomation Gateway
       - title: Softwareentwicklung
         description: Softwareentwicklung/-architektur im Frontendbereich JavaScript
         details:
@@ -140,7 +142,7 @@ projects:
         description: Leitung zweier Kundenprojekte für die Kiwigrid (SOLARWATT und EKZ)
         details:
           - detail:
-            description: Onboarding und Betreuung Elektrizitätswerke des Kanton Zürich; gemeinsame, agile Entwicklung einer Featureroadmap; Umsetzung von Meilensteinen; Qualitätssicherung; Feldtests; Dokumenationen
+            description: Onboarding und Betreuung Elektrizitätswerke des Kanton Zürich; gemeinsame, agile Entwicklung einer Feature-Roadmap; Umsetzung von Meilensteinen; Qualitätssicherung; Feldtests; Dokumentationen
           - detail:
             description: Controlling, Projektplanung, Personalbeschaffung, Risikomanagement, Ressourcen- & Meilensteinplanung, Beratung, Angebotserstellung, Teamsteuerung, agile Projektabwicklung Time/Budget/Quality
       - title: Technische Leitung
@@ -156,7 +158,7 @@ projects:
           - detail:
             description: Eigenverbrauchoptimiertes Laden von unterschiedlichen elektrischen Fahrzeugen mit Hilfe eines EnergyManagement Gateway Systems und der keba P30 Ladesäule (Treiberentwicklung, Frontendentwicklung, Regelungssoftware), Heizstäbe, Smartplugs und SG Ready Wärmepumpen
           - detail:
-            description: Lead Generierungs Tooling für PV Anlagen mit einem externen Entwicklungsteam modernsten Webtechnoligien (Integration in Salesforce Backend, Verwendung WebComponents als Microfrontends)
+            description: Lead Generierungs Tooling für PV Anlagen mit einem externen Entwicklungsteam modernsten Webtechnologien (Integration in Salesforce Backend, Verwendung WebComponents als Microfrontends)
       - title: Team Leitung
         description: 2 agile Scrum Teams (5-9 Personen)
   part-04:
