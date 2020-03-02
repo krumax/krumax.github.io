@@ -183,6 +183,6 @@ projects:
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "UA-159401160-1"
 
 exclude: ['package.json', 'src' , 'node_modules']
