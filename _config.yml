@@ -32,7 +32,7 @@ projects_title: Projekte
 
 # Technical Skills
 technical-skills:
-  title: Techische Fähigkeiten
+  title: Technische Fähigkeiten
   frontend_title: Frontend
   frontend: Javascript, AngularJS, HTML5, CSS, REST, TypeScript, grunt, npm
   backend_title: Backend
